@@ -31,6 +31,7 @@ Follow the on-screen instructions:
 
 1. Enter the start position using the notation e.g. a1, b2, etc.
 2. Enter the desired end position using the same notation or use '*' if there's no specific ending position.
+3. Enter the the maximum depth for the search.
 
 The game will then generate potential solutions, showing you the moves needed to reach the goal.
 
