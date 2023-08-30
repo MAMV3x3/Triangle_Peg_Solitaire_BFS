@@ -126,7 +126,8 @@ def notation_to_coords(pos):
 # Main function to execute the game
 def main():
     start_pos_notation = input('Enter the start position (e.g. a1, b2, ...): ')
-    end_pos_notation = input('Enter the end position (e.g. a1, b2, ...) o "*" si no importa: ')
+    end_pos_notation = input('Enter the end position (e.g. a1, b2, ...) or "*" for any position: ')
+    max_depth = int(input('Enter the maximum depth for the search: '))
 
     start_pos = notation_to_coords(start_pos_notation)
     # If a specific end position is not given, use '*'
@@ -136,6 +137,8 @@ def main():
         end_pos = '*'
 
     game = TrianglePeg(start_pos, end_pos)
-    game.generate_tree(30)  # Generating the tree with a depth limit of 30
+    game.generate_tree(max_depth)  # Generating the search tree up to the given depth
     game.print_solution()  # Printing the solution path
     
+if  __name__ == '__main__':
+    main()
