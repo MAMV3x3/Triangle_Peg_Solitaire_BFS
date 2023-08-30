@@ -14,7 +14,7 @@ This is a Python implementation of the classic triangle peg solitaire game. The 
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/MAMV3x3/Triangle_Peg_Solitaire_DFS.git
+git clone https://github.com/MAMV3x3/Triangle_Peg_Solitaire_BFS.git
 ```
 
 2. Navigate to the directory:
