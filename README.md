@@ -19,12 +19,12 @@ git clone https://github.com/MAMV3x3/Triangle_Peg_Solitaire_BFS.git
 
 2. Navigate to the directory:
 ```bash
-cd Triangle_Peg_Solitaire_DFS
+cd Triangle_Peg_Solitaire_BFS
 ```
 ## Usage
 Run the game using the command:
 ```bash
-python triangle_peg_solitaire.py
+python TrianglePeg.py
 ```
 
 Follow the on-screen instructions:
